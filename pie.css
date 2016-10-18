@@ -1,0 +1,100 @@
+/*******************************
+GENERAL: Page Pie
+********************************/
+
+body{
+	
+	font-family:  Georgia, Garamond, sans-serif;
+	font-size: 11pt;
+	color: #404040;
+}
+
+h1.coloured,
+h2.coloured,
+h3.coloured,
+h4.coloured,
+h5.coloured {
+	font-family:  'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+	background-color: #F0F0F0;
+	color:#A4A400;
+	font-size: 18pt;
+	text-align: left;
+	text-decoration: underline;
+}
+
+h3.main{
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	position: absolute;
+	top: 77px;
+	right: 8px;
+	left: 8px;
+}
+
+a{
+	color:#a4a400;
+}
+
+header {
+	margin:-5px 0 20px 0;
+}
+
+/*******************************
+TOOLTIP
+********************************/
+.tooltip,
+.tooltip_2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #404040;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext,
+.tooltip_2 .tooltiptext_2 {
+    visibility: hidden;
+    width: 100px;
+    background-color: rgba(64,64,64, 0.85);
+    color: rgba(255,255,255, 1);
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+ 
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;/* 3d positioning */
+}
+
+/* Show the tooltip text with hover */
+.tooltip:hover .tooltiptext,
+.tooltip_2:hover .tooltiptext_2 {
+    visibility: visible;
+}
+
+/*Deleted word cake*/
+.deleted {
+	text-decoration: line-through;
+}
+
+/*******************************
+FOOTER
+********************************/
+footer {
+	font-family: monospace;
+}
+
+/*******************************
+QUOTATIONS
+********************************/
+
+#quote {
+	font-style: italic;
+	background-color: #ffffa8;
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+.emfasized {
+	font-weight: bold;
+}
